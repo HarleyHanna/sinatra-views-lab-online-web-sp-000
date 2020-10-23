@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<% datetime = DateTime.now.strftime(%A,%B%e,%Y) %>
-<% datetimeS = datetime.to_s %>
+<% datetime = DateTime.now %>
+<% datetimeS = datetime.strftime(%A) %>
+<% datetimeX = datetimeS.to_s %>
 <html>
   <head>
     <h1>Today</h1>
